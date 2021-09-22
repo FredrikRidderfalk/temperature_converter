@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h2>Temperatureism Converterizer</h2>
-    <p>
+    <h1>Temperatureism Converterizer</h1>
+    <div class="container">
       <label>Habibi's scale: </label>
       <input
         id="inputFahrenheit"
@@ -17,22 +17,22 @@
         oninput="temperatureConverter(this.value)"
         onchange="temperatureConverter(this.value)"
       />
-    </p>
-    <p>Celsius: <span id="outputCelcius"></span></p>
+      <p>Celsius: <span id="outputCelcius"></span></p>
+    </div>
 
-    <p>-------------------------</p>
-
-    <p>
-      <label>Civilized scale: </label>
-      <input
-        id="inputFahrenheit"
-        type="number"
-        placeholder="Celsius"
-        oninput="celsiusToFahrenheitConverter(this.value)"
-        onchange="celsiusToFahrenheitConverter(this.value)"
-      />
-    </p>
-    <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+    <div class="container">
+      <p>
+        <label>Civilized scale: </label>
+        <input
+          id="inputFahrenheit"
+          type="number"
+          placeholder="Celsius"
+          oninput="celsiusToFahrenheitConverter(this.value)"
+          onchange="celsiusToFahrenheitConverter(this.value)"
+        />
+      </p>
+      <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
