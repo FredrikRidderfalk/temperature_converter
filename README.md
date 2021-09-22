@@ -1,4 +1,4 @@
-# Chrome extension for bookmarking meal inspiration across the web.
+# Chrome extension for converting degree values between celsius and fahrenheit.
 
 ## Table of contents
 
