@@ -11,10 +11,10 @@ for (let i = 0; i < inputs.length; i++) {
 
     switch (e.target.name) {
       case "celsius":
-        fahrenheitInput.value = value * 1.8 + 32;
+        fahrenheitInput.value = (value * 1.8 + 32).toFixed(1);
         break;
       case "fahrenheit":
-        celsiusInput.value = (value - 32) / 1.8;
+        celsiusInput.value = ((value - 32) / 1.8).toFixed(1);
         break;
     }
   });
