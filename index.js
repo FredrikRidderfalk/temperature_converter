@@ -1,9 +1,21 @@
-function fahrenheitToCelsiusConverter(valNum) {
-  valNum = parseFloat(valNum);
-  document.getElementById("outputCelsius").innerHTML = (valNum - 32) / 1.8;
-}
+const celsiusInput = document.querySelector("#inputCelsius");
+const fahrenheitInput = document.querySelector("#inputFahrenheit");
 
-function celsiusToFahrenheitConverter(valNum) {
-  valNum = parseFloat(valNum);
-  document.getElementById("outputFahrenheit").innerHTML = valNum * 1.8 + 32;
+const inputs = document.querySelectorAll(".input");
+
+for (let i = 0; i < inputs.length; i++) {
+  let input = inputs[i];
+
+  input.addEventListener("input", (e) => {
+    let value = parseFloat(e.target.value);
+
+    switch (e.target.name) {
+      case "celsius":
+        fahrenheitInput.value = value * 1.8 + 32;
+        break;
+      case "fahrenheit":
+        celsiusInput.value = (value - 32) / 1.8;
+        break;
+    }
+  });
 }
