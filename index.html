@@ -7,30 +7,29 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Temperatureism Converterizer</h1>
-    <div class="container">
-      <label>Habibi's scale: </label>
-      <input
-        id="inputFahrenheit"
-        type="number"
-        placeholder="Fahrenheit"
-        oninput="fahrenheitToCelsiusConverter(this.value)"
-      />
-      <p>Celsius: <span id="outputCelsius"></span></p>
-    </div>
-
-    <div class="container">
-      <p>
-        <label>Civilized scale: </label>
+    <main>
+      <header>
+        <h1>Temperatureism Converterizer</h1>
+      </header>
+      <section class="inputs">
+        <label>Hannah's scale: </label>
+        <input
+          id="inputFahrenheit"
+          class="input"
+          type="number"
+          name="fahrenheit"
+          placeholder="Fahrenheit"
+        />
+        <label>Fredrik's scale: </label>
         <input
           id="inputCelsius"
+          class="input"
           type="number"
+          name="celsius"
           placeholder="Celsius"
-          oninput="celsiusToFahrenheitConverter(this.value)"
         />
-      </p>
-      <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
-    </div>
+      </section>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
