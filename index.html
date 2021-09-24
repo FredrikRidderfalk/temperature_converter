@@ -14,16 +14,16 @@
         id="inputFahrenheit"
         type="number"
         placeholder="Fahrenheit"
-        oninput="temperatureConverter(this.value)"
+        oninput="fahrenheitToCelsiusConverter(this.value)"
       />
-      <p>Celsius: <span id="outputCelcius"></span></p>
+      <p>Celsius: <span id="outputCelsius"></span></p>
     </div>
 
     <div class="container">
       <p>
         <label>Civilized scale: </label>
         <input
-          id="inputFahrenheit"
+          id="inputCelsius"
           type="number"
           placeholder="Celsius"
           oninput="celsiusToFahrenheitConverter(this.value)"
