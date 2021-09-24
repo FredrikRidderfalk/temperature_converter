@@ -1,4 +1,4 @@
-# Chrome extension for converting degree values between celsius and fahrenheit.
+# Chrome extension for converting degrees between Celsius and Fahrenheit.
 
 ## Table of contents
 
@@ -9,6 +9,7 @@
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -18,33 +19,39 @@
 
 Users should be able to:
 
-- [x] Bookmark any links by input, and can also with a single click save the link for the current tab in focus.
-- [x] Reset the stored list of links.
+- [x] Convert temperature from Fahrenheit to Celsius.
+- [x] Convert temperature from Celsius to Fahrenheit.
 
 ### Screenshot
 
-![](chrome_extension.png)
+![](screenshot.png)
 
 ## My process
 
+- I streamlined the layout considering it would serve as a Chrome extension.
 - I maintained high contrast ratios (13.1:1, 7.74:1) throughout the website, passing all WCAG tests. Tested using [WebAIM](https://webaim.org/resources/contrastchecker/?fcolor=000000&bcolor=16DFBD).
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS
+- Flexbox
 - JavaScript
 
 ### What I learned
 
-- How to build a full stack project.
-- How to deploy an extension to the Chrome browser.
-- How to create and interact with a database.
-- How to create a tooltip that appears in the correct position on :hover.
+- How to get around an error message when trying to deploy the app as an extension on the Chrome browser.
+
+- I got to practice switch cases in JavaScript.
 
 ### Continued development
 
-I want to spend more time learning about accessibility and implementing additional measures for an inclusive experience. I look forward to refining my knowledge around positioning objects using the 'position' property.
+To make the output not show any decimal if it's an integer.
+
+### Useful resources
+
+- [Nu Html Checker](https://validator.w3.org/nu/) - I ran my index.html through this conformance checker to catch any unintended mistakes.
+- [CSS Validation Service](https://jigsaw.w3.org/css-validator/) - I ran my style.css through this conformance checker to catch any unintended mistakes.
 
 ## Author
 
@@ -54,4 +61,4 @@ I want to spend more time learning about accessibility and implementing addition
 
 ## Acknowledgments
 
-My acknowledgements go out to the team at Scrimba. Enrolling in your courses made this project possible. I learned a lot for this project from Per Harald Borgen.
+Thank you habibi, you're my inspiration!
