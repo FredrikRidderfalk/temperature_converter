@@ -19,10 +19,12 @@ label {
 
 input {
   padding: 5px;
+  background-color: rgb(227, 244, 255);
   font-size: 18px;
   box-shadow: black 3px 3px 0;
   border-radius: 5px;
   display: block;
+  width: 235px;
 }
 
 #inputFahrenheit {
@@ -31,6 +33,9 @@ input {
 
 .inputs {
   max-width: fit-content;
+  background-color: rgb(246, 218, 255);
+  border-radius: 8px;
+  border: 2px solid rgba(154, 19, 207, 0.52);
   padding: 15px;
   margin: 10px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
